@@ -1,10 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tick line{
+  stroke: #4e4e0c;
+}
+
+.tick text{
+  font-family: 'Merriweather', serif;
+  fill: #4d3928;
+}
+
+.mark{
+  fill:rgb(95, 100, 100);
+}
+
+.axis-label{
+  font-size: 2.5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +27,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
