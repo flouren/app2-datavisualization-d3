@@ -47,7 +47,7 @@ const BarChartRefactored = () => {
                 < AxisBottom xScale={xScale} innerHeight={innerHeight} tickFormat={format('.2s')}/>
                 {/* {data.map(d=><rect x={0} y={yScale(d.Country)} width={xScale(d.Population)} height={yScale.bandwidth()} />)} */}
                 <AxisLeft yScale={yScale} innerWidth={innerWidth}/>
-                <Marks data={data} xScale={xScale} yScale={yScale} xValue={xValue} yValue={yValue} tooltipFormat={format('.2s')}/>
+                <Marks data={data} xScale={xScale} yScale={yScale} xValue={xValue} yValue={yValue} tooltipFormat={format('.2s')} className='circle'/>
                 <text className='axis-label' x={innerWidth/2} y={innerHeight/2} textAnchor='middle'>{xAxisLabel}</text>
             </g>
         </svg>

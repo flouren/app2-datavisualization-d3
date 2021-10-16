@@ -14,7 +14,9 @@
 }
 
 .mark{
-  fill:rgb(95, 100, 100);
+  /* fill:rgb(95, 100, 100); */
+  
+  background-color: inset 0 0 0 3em rgba(69, 69, 226, 0.3);
 }
 
 .axis-label{
