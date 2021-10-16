@@ -20,5 +20,6 @@ export const useData = () => {
       .then(setData)
       
     }, [])
+    // console.log(data);
      return data
  }
